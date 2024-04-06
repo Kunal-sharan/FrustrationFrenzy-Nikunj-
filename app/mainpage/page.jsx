@@ -18,6 +18,20 @@ import Icons from "../Components/Icons";
 
 gsap.registerPlugin(ScrollTrigger);
 const MainPage = () => {
+  async function fetchData() {
+    try {
+      const response = await fetch('../api/connect');
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+  
+  //fetchData();
   const [showImage, setShowImage] = useState(false);
   const [opacity, setOpacity] = useState(0);
 
@@ -93,7 +107,7 @@ const MainPage = () => {
                   className="w-2/3 h-full  drop-shadow-xl  rounded-3xl"
                 />
               </div>
-              <div className="m-2">
+              <div className="m-2 text-white">
                 Welcome to Frustration Frenzy, a sanctuary of holistic
                 well-being and self-discovery. Our journey began in 2023, driven
                 by the founder&apos; own search for inner peace and balance
@@ -118,7 +132,7 @@ const MainPage = () => {
               <Image src={sess} />
             </div>
             <div className="text-white text-2xl font-extrabold font-dancing absolute">
-              Personal Guidance
+              Marketing Events
             </div>
           </div>
           <div className="text-dark-green w-full text-center p-4 text-3xl font-crimson">
@@ -198,12 +212,14 @@ const MainPage = () => {
               <div className="text-black  underline ">Contact Us</div>
             </Link>
             <Link href="/termsAndConditions">
-              <div className="text-black  underline ">Terms & Conditions</div>
+              <div className="text-black  underline">Terms & Conditions</div>
             </Link>
             <div className="text-black underline ">Privacy Policy</div>
+            <Link href = "/cancelation">
             <div className="text-black underline ">
-              Cancellation and Refunds
+              Cancellation
             </div>
+            </Link>
           </div>
           <div className="flex flex-col gap-8 place-content-center justify-center align-middle w-full px-64">
             <div className="text-black text-center text-xl">Become Member</div>

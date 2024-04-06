@@ -19,9 +19,11 @@ export default function Foooter() {
               <div className="text-black  underline ">Terms & Conditions</div>
             </Link>
             <div className="text-black underline ">Privacy Policy</div>
+            <Link href="/cancelation">
             <div className="text-black underline ">
-              Cancellation and Refunds
+              Cancellation
             </div>
+            </Link>
           </div>
           <div className="flex flex-col gap-8 place-content-center justify-center align-middle w-full px-64">
             <div className="text-black text-center text-xl">Become Member</div>

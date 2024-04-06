@@ -11,7 +11,9 @@ const icons = () => {
       <Link href="https://instagram.com/frustrationfrenzy?igshid=OGQ5ZDc2ODk2ZA==">
         <FontAwesomeIcon size="3x" icon={faInstagramSquare} color="black" />
       </Link>
-      <FontAwesomeIcon size="3x" icon={faEnvelope} color="black" />
+      <Link href="https://frustrationfrenzy007@gmail.com">
+        <FontAwesomeIcon size="3x" icon={faEnvelope} color="black" />
+      </Link>
     </div>
   );
 };
