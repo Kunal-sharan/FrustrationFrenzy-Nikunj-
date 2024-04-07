@@ -3,9 +3,11 @@ import Navbar from "../navbar/Navbar";
 
 export default function DashboardLayout({ children }) {
   return (
-    <section>
-      <Navbar />
-      {children}
-    </section>
+    <ClerkProvider>
+      <section>
+        <Navbar/>
+        {children}
+      </section>
+    </ClerkProvider>
   );
 }

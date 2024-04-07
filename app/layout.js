@@ -13,21 +13,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="icon" href="/ff.ico" />
-      </head>
-      <body className={inter.className}>
-        <div className="overflow-hidden">
-          <Navbar />
-          {children}
-        </div>
-      </body>
+      <ClerkProvider>
+        <head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&display=swap"
+            rel="stylesheet"
+          />
+          <link rel="icon" href="/ff.ico" />
+        </head>
+        <body className={inter.className}>
+          <div className="overflow-hidden">
+            {/* <Navbar /> */}
+            {children}
+          </div>
+        </body>
+      </ClerkProvider>
     </html>
   );
 }

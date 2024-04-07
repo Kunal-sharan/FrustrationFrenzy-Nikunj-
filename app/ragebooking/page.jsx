@@ -4,7 +4,7 @@ import FeedbackForm from "../Components/FeedbackForm";
 
 export default function AppointmentGrid() {
   // Initialize state for 16 buttons
-  const [dates, setDates] = useState(Array(16).fill("24-05-2024"));
+  const [dates, setDates] = useState(Array(16).fill("24-05-2024 || 9:30 AM"));
   const [showFeedbackForm, setShowFeedbackForm] = useState(false);
   const [selectedDate, setSelectedDate] = useState(""); // State to store selected date
 
@@ -18,7 +18,7 @@ export default function AppointmentGrid() {
   };
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-screen h-screen ">
       <div className="flex flex-row w-full py-8 px-4 gap-12 bg-white-green">
         <div className="w- place-content-start">
           <div className="text-black font-crimson text-3xl w-full ">

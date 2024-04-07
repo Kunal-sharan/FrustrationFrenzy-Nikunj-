@@ -1,4 +1,5 @@
 import MainPage from "./mainpage/page";
+import Navbar from "./navbar/Navbar";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       {/* <Form/> */}
       {/* <ContinueAs/> */}
       {/* <Videobrief/> */}
+      <Navbar/>
       <MainPage />
       {/* <SessionBooking/> */}
     </main>
