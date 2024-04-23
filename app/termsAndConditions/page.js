@@ -7,11 +7,11 @@ const TermsAndConditions = () => {
         Terms and Conditions
       </h1>
       <p className="text-left font-crimson text-dark-green text-2xl p-12">
-        Please read these Terms and Conditions ("Terms") carefully before using
-        the Frustration Frenzy™ website (the "Website") or purchasing any
-        products or services from us. These Terms govern your access to and use
-        of the Website and constitute a legally binding agreement between you
-        and Frustration Frenzy™.
+        Please read these Terms and Conditions (&quot;Terms&quot;) carefully
+        before using the Frustration Frenzy&trade; website (the
+        &ldquo;Website&rdquo;) or purchasing any products or services from us.
+        These Terms govern your access to and use of the Website and constitute
+        a legally binding agreement between you and Frustration Frenzy&trade;.
         <br /> <br />
         <strong className="text-black">1. Acceptance of Terms </strong>
         <br />
@@ -32,8 +32,8 @@ const TermsAndConditions = () => {
         on the Website are for illustrative purposes only and may differ
         slightly from the actual products due to variations in color, size, or
         other attributes. We make every effort to accurately represent our
-        products, but we cannot guarantee that your device&apos;s display will
-        accurately reflect the actual product&apos;s appearance.
+        products, but we cannot guarantee that your device&rsquo;s display will
+        accurately reflect the actual product&rsquo;s appearance.
         <br />
         <br />
         <strong className="text-black">3. Ordering and Payment</strong>
@@ -83,8 +83,8 @@ const TermsAndConditions = () => {
         <br />
         <strong>6.1 Ownership:</strong> All content on the Website, including
         text, graphics, logos, images, videos, and software, is the property of
-        Frustration Frenzy™ or its licensors and is protected by Indian and
-        international copyright, trademark, and other intellectual property
+        Frustration Frenzy&trade; or its licensors and is protected by Indian
+        and international copyright, trademark, and other intellectual property
         laws.
         <br />
         <strong>6.2 Limited License:</strong> We grant you a limited,
@@ -97,14 +97,15 @@ const TermsAndConditions = () => {
         <br />
         <strong className="text-black">7. Disclaimer of Warranties</strong>
         <br />
-        <strong>7.1 Website "As Is":</strong> The Website and its content are
-        provided on an "as is" and "as available" basis, without any warranties
-        of any kind, whether express or implied. We disclaim all warranties,
-        including but not limited to implied warranties of merchantability,
-        fitness for a particular purpose, and non-infringement.
+        <strong>7.1 Website &ldquo;As Is&rdquo;:</strong> The Website and its
+        content are provided on an &ldquo;as is&rdquo; and &ldquo;as
+        available&rdquo; basis, without any warranties of any kind, whether
+        express or implied. We disclaim all warranties, including but not
+        limited to implied warranties of merchantability, fitness for a
+        particular purpose, and non-infringement.
         <br />
-        <strong>7.2 Product Disclaimer:</strong> Frustration Frenzy™ is not
-        responsible for any adverse effects or allergic reactions that may
+        <strong>7.2 Product Disclaimer:</strong> Frustration Frenzy&trade; is
+        not responsible for any adverse effects or allergic reactions that may
         result from the use of our products. It is your responsibility to review
         the product ingredients and consult with a healthcare professional if
         you have any concerns or medical conditions.
@@ -112,19 +113,19 @@ const TermsAndConditions = () => {
         <br />
         <strong className="text-black">8. Limitation of Liability</strong>
         <br />
-        To the maximum extent permitted by applicable law, Frustration Frenzy™
-        and its officers, directors, employees, and affiliates shall not be
-        liable for any direct, indirect, incidental, consequential, or special
-        damages arising out of or in any way connected with your use of the
-        Website or the products or services purchased from us.
+        To the maximum extent permitted by applicable law, Frustration
+        Frenzy&trade; and its officers, directors, employees, and affiliates
+        shall not be liable for any direct, indirect, incidental, consequential,
+        or special damages arising out of or in any way connected with your use
+        of the Website or the products or services purchased from us.
         <br />
         <br />
         <strong className="text-black">9. Indemnification</strong>
         <br />
-        You agree to indemnify and hold Frustration Frenzy™ and its affiliates,
-        officers, directors, employees, and agents harmless from any claims,
-        losses, damages, liabilities, costs, or expenses arising out of or
-        related to your use of the Website, violation of these Terms, or
+        You agree to indemnify and hold Frustration Frenzy&trade; and its
+        affiliates, officers, directors, employees, and agents harmless from any
+        claims, losses, damages, liabilities, costs, or expenses arising out of
+        or related to your use of the Website, violation of these Terms, or
         infringement of any third-party rights.
         <br />
         <br />
@@ -150,7 +151,7 @@ const TermsAndConditions = () => {
         <br />
         If you have any questions or concerns about these Terms or our
         practices, please contact us at care@FrustrationFrenzy.com. By using the
-        Frustration Frenzy™ Website, you acknowledge that you have read,
+        Frustration Frenzy&trade; Website, you acknowledge that you have read,
         understood, and agree to abide by these Terms and Conditions.
       </p>
     </div>
