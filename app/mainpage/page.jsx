@@ -111,9 +111,7 @@ const MainPage = () => {
                 Welcome to Frustration Frenzy, a sanctuary of holistic
                 well-being and self-discovery. Our journey began in 2023, driven
                 by the founder&apos; own search for inner peace and balance
-                amidst the chaos of modern life. What started as a humble home
-                and hobby venture soon blossomed into a global phenomenon, as
-                our products found their way into homes across India.
+                amidst the chaos of modern life.
               </div>
             </animated.div>
           </div>
