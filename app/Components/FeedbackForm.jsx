@@ -80,7 +80,10 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function FeedbackForm({ selectedDate }) {
   const [state, handleSubmit] = useForm("mgegpoaz");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    setTimeout(() => {
+     window.location.href = "https://forms.gle/QpTEmSbREuPefp9N7";
+    }, 2500);
+    return <h2>Thanks for joining! Please Fill the form for payment and confirmation of your slot booking <br /><strong>You will be redirect to fill the form please wait</strong></h2>;
   }
   return (
     <div className="w-full h-full flex place-content-center">
@@ -96,6 +99,7 @@ export default function FeedbackForm({ selectedDate }) {
           type="email"
           name="email"
           className="text-black bg-white-green p-2"
+          required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <label htmlFor="message" className="text-dark-green">
