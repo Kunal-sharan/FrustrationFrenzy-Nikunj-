@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import FeedbackForm from "../Components/FeedbackForm";
 
 export default function AppointmentGrid() {
-  const initialDates = Array(16).fill("24-05-2024 || 9:30 AM");
-  const [dates, setDates] = useState(initialDates);
   const [showFeedbackForm, setShowFeedbackForm] = useState(false);
   const [selectedDate, setSelectedDate] = useState("");
 
@@ -20,7 +18,7 @@ export default function AppointmentGrid() {
   return (
     <div className="relative w-screen h-screen">
       <div className="flex flex-row w-full py-8 px-4 gap-12 bg-white-green">
-        <div className="w-full">
+        <div className="w-full h-screen mb-8">
           <strong className="text-xl">
             Instructions for a Smash Room Experience:
           </strong>
@@ -81,8 +79,8 @@ export default function AppointmentGrid() {
         </div>
         <div>
           <div className="w-full">
-            <div className="text-black font-crimson text-3xl w-full text-center m-1">
-              About Smash Room
+            <div className="text-black font-bold font-crimson text-3xl w-full text-center m-1">
+              ABOUT SMASH ROOM
             </div>
             <div className="w-full break-words text-black text-md py-4">
               <strong>Are you tired of bottling up your stress?</strong> Do you
@@ -96,19 +94,16 @@ export default function AppointmentGrid() {
               the perfect place to blow off steam.
             </div>
             <div className="text-black text-3xl font-bold py-4">
-              Available Timings
+              Book Your Slot Now
             </div>
             <div className="grid grid-cols-4 py-4 gap-4">
-              {dates.map((date, i) => (
-                <div key={i}>
+              
                   <button
-                    onClick={() => handleFeedbackButtonClick(date)}
+                    onClick={() => handleFeedbackButtonClick()}
                     className="bg-green-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   >
-                    {date}
+                    BOOK NOW
                   </button>
-                </div>
-              ))}
             </div>
             <p>
               The purpose of a smash room is to provide a safe and controlled

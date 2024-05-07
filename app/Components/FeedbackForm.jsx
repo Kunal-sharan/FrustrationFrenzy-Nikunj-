@@ -77,7 +77,7 @@
 // }
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-export default function FeedbackForm({ selectedDate }) {
+export default function FeedbackForm() {
   const [state, handleSubmit] = useForm("mgegpoaz");
   if (state.succeeded) {
     setTimeout(() => {
@@ -103,9 +103,13 @@ export default function FeedbackForm({ selectedDate }) {
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <label htmlFor="message" className="text-dark-green">
-          Schedule:
+          Enter Date:
         </label>
-        <textarea id="message" name="message" value={selectedDate} readOnly />
+        <textarea
+          id="message"
+          name="message"
+          className="text-black bg-white-green p-2"
+        />
         <ValidationError
           prefix="Message"
           field="message"
